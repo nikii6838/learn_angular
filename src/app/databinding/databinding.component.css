@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+}
+
+.cutomButton {
+    padding: 20px;
+    color: goldenrod;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 25px;
+    width: 200px;
+}
+
+.cutomButton :hover {
+    color: blue;
+    background-color: yellow;
+    cursor: pointer;
+}

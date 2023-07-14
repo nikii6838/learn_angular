@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Data Binding Types</h1>
+  <hr />
+  <h3>1. Interplation Data binding</h3>
+  <h1>{{ name }} from {{ clgName }}</h1>
+
+  addition{{ 2 + 2 }}
+
+  {{ data.name }}
+
+  <hr />
+  <h3>2. Property Data binding</h3>
+  <div>
+    <img [src]="imageURL" [alt]="altText" width="20%" />
+  </div>
+  <div>
+    <button class="cutomButton" [disabled]="isDisabled" (click)="SaveData()">
+      Click Me
+    </button>
+  </div>
+  <hr />
+  <h3>3. Two Way Data binding</h3>
+  <div>
+    <input
+      type="text"
+      placeholder="please enter your Department"
+      [(ngModel)]="department"
+    />
+  </div>
+  <div>
+    {{ department }}
+  </div>
+</div>
