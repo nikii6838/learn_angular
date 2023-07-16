@@ -1,0 +1,43 @@
+.container li{
+    text-align: center;
+    margin: 10px;
+}
+.username{
+    background-color: #7FACC7;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    margin-right: 10px; 
+    font-weight: bold;
+    color: white;
+}
+.input{
+    background-color: #7FACC7;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+.output{
+    background-color: #A4A8D1;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+#name{
+    text-align: center;
+}
+button{
+    margin: 15px;
+    background-color:#A4BFEB;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.head{
+    color: rgb(139, 0, 2);
+}
+

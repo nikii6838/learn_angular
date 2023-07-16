@@ -26,7 +26,7 @@ export class DatabindingComponent implements OnInit {
   SaveData() {
     alert("Button Disabled");
     this.isDisabled = true;
-    this.name = "Uttam Shendage";
+    this.name = "pornima bhosale";
     this.clgName = "College of Engineering Pune";
   }
 }
