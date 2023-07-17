@@ -1,24 +1,14 @@
-<!-- <app-databinding></app-databinding> -->
 
-    <div style="text-align: center;">
-   
-        <!-- <h1 class="head">
-            welcome to {{title}}
-        </h1 > -->
-        <h2 class="head">Two Way Data Binding</h2>
-      
-        
-        <ol class="container">
-            <li><label class="username">UserName</label><input class="input" [(ngModel)]="username" type="text" placeholder="Enter username"></li>
-            <li><label class="output">Output: <strong>{{ username }}</strong></label></li>
-            <li><button [disabled]="username === ''" (click)="resetUsername()">Reset</button></li>
-        </ol>
+<div>
+<h1>
+    Welcome to {{title}}!
+</h1>
+<img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png">
     
-        
-    <app-username></app-username>
-    </div>
-    <router-outlet></router-outlet><div style="text-align: center;">
-   
-   
+</div>
+<app-child [msg]="data"(foodEvent)="getDataFromchild($event)" >
 
+</app-child>
+   
+<router-outlet></router-outlet>
 

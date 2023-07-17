@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { FormsModule } from '@angular/forms';
 import { UsernameComponent } from './username/username.component';
+import { ChildComponent } from './child/child.component';
 
 
 
@@ -15,6 +16,7 @@ import { UsernameComponent } from './username/username.component';
     AppComponent,
     DatabindingComponent,
     UsernameComponent,
+    ChildComponent,
   ],
   imports: [
     BrowserModule,
