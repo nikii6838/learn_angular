@@ -1,14 +1,21 @@
-
 <div>
-<h1>
-    Welcome to {{title}}!
-</h1>
-<img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png">
+    <h1>
+        Welcome to {{title}}!
+    </h1>
+    <img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png">
+        <div style="text-align: center;">
+           
+    </div>
+    <app-child [msg]="data"(foodEvent)="getDataFromchild($event)" >
     
-</div>
-<app-child [msg]="data"(foodEvent)="getDataFromchild($event)" >
-
-</app-child>
+    </app-child>
+            
+       
+        </div>
+        
+       
+    <router-outlet></router-outlet>
    
-<router-outlet></router-outlet>
+   
+
 
