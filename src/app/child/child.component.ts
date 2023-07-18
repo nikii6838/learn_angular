@@ -8,7 +8,7 @@ import { Component, OnInit ,Input,Output,EventEmitter} from '@angular/core';
 export class ChildComponent implements OnInit {
 
   @Input('msg') dataInput:string ;
-  data;
+  // data;
 
   @Output() foodEvent : EventEmitter<string> = new EventEmitter<string>();
   constructor() { }

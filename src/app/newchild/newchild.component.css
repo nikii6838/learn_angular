@@ -1,0 +1,9 @@
+.itcourse{
+    color: white;
+}
+li{
+    font-weight: bold;
+    font-size: larger;
+    color: steelblue;
+    padding: 5px;
+}

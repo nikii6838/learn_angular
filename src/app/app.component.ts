@@ -6,13 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularApp';
- data : string = 'Angular Batch 7'
-
- getDataFromchild(value){
-  console.log(value);
+  courses: string[] = 
+  [
+   'Angular', 
+  'JavaScript',
+  'HTML' ,
+  'CSS'
+ ];
+  
  }
 
 
-}
+
 

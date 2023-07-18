@@ -16,6 +16,7 @@ import { NewchildComponent } from './newchild/newchild.component';
   declarations: [
     AppComponent,
     DatabindingComponent,
+    UsernameComponent,
     ChildComponent,
     NewchildComponent,
   ],
