@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckboxComponent implements OnInit {
 
+  Payment: boolean = false;
   constructor() { }
 
   ngOnInit() {

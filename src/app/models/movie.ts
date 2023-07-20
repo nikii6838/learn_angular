@@ -4,3 +4,9 @@ export class Movies {
     cast: string;
     releaseDate: string;
 }
+export class student {
+    name: string;
+    address: string;
+    phone: string;
+    subject: string;
+}

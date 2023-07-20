@@ -1,1 +1,15 @@
 <p>checkbox works!</p>
+
+<input type="checkbox" [(ngModel)]="Payment" />  Payment
+
+<div *ngIf="Payment">
+  <h4>Pick a payment Option</h4>
+  <ul class="list">
+    <li> Credit Card</li>
+    <li> E-Check</li>
+    <li> Debit Card</li>
+    <li> Bill me</li>
+    <li> Have gift card code</li>
+</ul>
+</div>
+

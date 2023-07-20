@@ -4,15 +4,23 @@
     Welcome to {{title}}!
   </h1>
      
-      <img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png">
-          <div style="text-align: center;">
+      <img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png"> <br><br>
+         
              
-      </div>
+            <app-checkbox></app-checkbox> <br><br> <br><br>
+       
+        <app-country></app-country> <br><br>
      
-        <app-child [msg]="data"(foodEvent)="getDataFromchild($event)" > </app-child>
-        <app-attributedir></app-attributedir>
-        <app-ngswitch></app-ngswitch>
-        <app-ngfor></app-ngfor>
-        <app-ngif></app-ngif>
+      
+        <!-- <app-child [msg]="data"(foodEvent)="getDataFromchild($event)" > </app-child> -->
+        <!-- <app-attributedir></app-attributedir> -->
+        <!-- <app-ngswitch></app-ngswitch> -->
+        <!-- <app-ngfor></app-ngfor> -->
+        <!-- <app-ngif></app-ngif> -->
+        
+</div>
+<div style="text-align: center;">
+  <br><br>
+<app-course></app-course>
 </div>
   <router-outlet></router-outlet>

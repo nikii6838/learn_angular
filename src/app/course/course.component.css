@@ -1,0 +1,7 @@
+table{
+    width: 700px;
+    margin-left: 400px;
+    border: 1px;
+    table-layout: fixed;
+    background-color: teal;
+}

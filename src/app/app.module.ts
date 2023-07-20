@@ -13,6 +13,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { AttributedirComponent } from './attributedir/attributedir.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { CourseComponent } from './course/course.component';
+import { CountryComponent } from './country/country.component';
 
 
 
@@ -29,6 +31,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     NgswitchComponent,
     AttributedirComponent,
     CheckboxComponent,
+    CourseComponent,
+    CountryComponent,
   ],
   imports: [
     BrowserModule,

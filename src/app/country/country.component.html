@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="col-md-4">
+        <select class="form-control" (change)="getProductValue($event)">
+            <option value="Default">Select country</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="Hongkong">Hongkong</option>
+            <option value="England">England</option>
+        </select>
+    </div>
+    <div class="col-md-12" [ngSwitch]="selectedCountry">
+        <h2 class="text-primary" *ngSwitchDefault>Please select country</h2>
+        <h2 class="text-success" *ngSwitchCase="'India'">India</h2>
+        <h2 class="text-success" *ngSwitchCase="'UK'">UK</h2>
+        <h2 class="text-success" *ngSwitchCase="'Hongkong'">Hongkong</h2>
+        <h2 class="text-danger" *ngSwitchCase="'England'">England</h2>
+    </div>
+</div>
