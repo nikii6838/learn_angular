@@ -1,12 +1,18 @@
-<body class="abc">
-    <div>
-        <div style="text-align: center">
-          <h1>Welcome to Angularapp{{ title }}!</h1>
-          <img width="300"alt="Angular Logo"src="https://angular.io/assets/images/logos/angular/angular.png"/>
-      
-          <app-newchild [courses]="courses"></app-newchild><br />
-        </div>
-        <router-outlet></router-outlet>
+<div style="text-align: center;">
+  <h1>
+
+    Welcome to {{title}}!
+  </h1>
+     
+      <img width ="300" alt ="Angular Logo" src="https://angular.io/assets/images/logos/angular/angular.png">
+          <div style="text-align: center;">
+             
       </div>
-      
-</body>
+     
+        <app-child [msg]="data"(foodEvent)="getDataFromchild($event)" > </app-child>
+        <app-attributedir></app-attributedir>
+        <app-ngswitch></app-ngswitch>
+        <app-ngfor></app-ngfor>
+        <app-ngif></app-ngif>
+</div>
+  <router-outlet></router-outlet>

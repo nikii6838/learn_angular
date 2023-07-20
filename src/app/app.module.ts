@@ -8,6 +8,11 @@ import { FormsModule } from '@angular/forms';
 import { UsernameComponent } from './username/username.component';
 import { ChildComponent } from './child/child.component';
 import { NewchildComponent } from './newchild/newchild.component';
+import { NgifComponent } from './ngif/ngif.component';
+import { NgforComponent } from './ngfor/ngfor.component';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
+import { AttributedirComponent } from './attributedir/attributedir.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 
 
 
@@ -19,6 +24,11 @@ import { NewchildComponent } from './newchild/newchild.component';
     UsernameComponent,
     ChildComponent,
     NewchildComponent,
+    NgifComponent,
+    NgforComponent,
+    NgswitchComponent,
+    AttributedirComponent,
+    CheckboxComponent,
   ],
   imports: [
     BrowserModule,
