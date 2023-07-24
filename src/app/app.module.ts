@@ -15,6 +15,7 @@ import { AttributedirComponent } from './attributedir/attributedir.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { CourseComponent } from './course/course.component';
 import { CountryComponent } from './country/country.component';
+import { CustdirDirective } from './custdir.directive';
 
 
 
@@ -33,6 +34,7 @@ import { CountryComponent } from './country/country.component';
     CheckboxComponent,
     CourseComponent,
     CountryComponent,
+    CustdirDirective,
   ],
   imports: [
     BrowserModule,

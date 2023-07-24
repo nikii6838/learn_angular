@@ -1,38 +1,44 @@
-<p>ngfor works!</p>
+<!-- <p>ngfor works!</p>
 
 <div>
+  <div>
+    {{ title }}
+  </div>
+  <div>
     <div>
-         {{title}}   
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Cast</th>
+            <th>Release Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let movie of movies">
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.director }}</td>
+            <td>{{ movie.cast }}</td>
+            <td>{{ movie.releaseDate }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <div>
-            <div>
-                    <table class="table">
-                         <thead>
-                            <tr>
-                                    <th>
-                                       Title     
-                                    </th>
-                                    <th>
-                                            Director
-                                    </th>
-                                    <th>
-                                            Cast
-                                    </th>
-                                    <th>
-                                            Release Date
-                                    </th>
-                            </tr>
-                         </thead> 
-                         <tbody>
-                            <tr *ngFor="let movie of movies">
-                                   <td> {{movie.title}}</td>
-                                   <td> {{movie.director}}</td>
-                                   <td> {{movie.cast}}</td>
-                                   <td> {{movie.releaseDate}}</td>
-
-                            </tr>
-                         </tbody>          
-                    </table>
-            </div>
-    </div>
+  </div>
+</div> -->
+<div class="box">
+        <div class="container">
+        <label for="country">Country:</label>
+        <select id="country" [(ngModel)]="selectedCountry" (change)="onCountryChange(selectedCountry)">
+          <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+        </select>
+      </div>
+    
+      <div *ngIf="selectedCountry">
+        <label for="state">State:</label>
+        <select id="state" [(ngModel)]="selectedState">
+          <option *ngFor="let state of states[selectedCountry]" [value]="state">{{ state }}</option>
+        </select>
+      </div>
 </div>
