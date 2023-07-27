@@ -1,0 +1,18 @@
+label{
+    float: left;
+}
+input.ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+label {
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: aqua;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+}

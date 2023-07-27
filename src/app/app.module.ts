@@ -16,6 +16,8 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
 import { CourseComponent } from './course/course.component';
 import { CountryComponent } from './country/country.component';
 import { CustdirDirective } from './custdir.directive';
+import { SimpleformComponent } from './simpleform/simpleform.component';
+import { SampleforComponent } from './samplefor/samplefor.component';
 
 
 
@@ -35,6 +37,8 @@ import { CustdirDirective } from './custdir.directive';
     CourseComponent,
     CountryComponent,
     CustdirDirective,
+    SimpleformComponent,
+    SampleforComponent,
   ],
   imports: [
     BrowserModule,
