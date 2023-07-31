@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UsernameComponent } from './username/username.component';
 import { ChildComponent } from './child/child.component';
 import { NewchildComponent } from './newchild/newchild.component';
@@ -18,6 +18,7 @@ import { CountryComponent } from './country/country.component';
 import { CustdirDirective } from './custdir.directive';
 import { SimpleformComponent } from './simpleform/simpleform.component';
 import { SampleforComponent } from './samplefor/samplefor.component';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 
 
 
@@ -39,11 +40,13 @@ import { SampleforComponent } from './samplefor/samplefor.component';
     CustdirDirective,
     SimpleformComponent,
     SampleforComponent,
+    ReactiveformComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

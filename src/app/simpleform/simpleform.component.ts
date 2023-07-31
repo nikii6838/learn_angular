@@ -47,9 +47,15 @@ export class SimpleformComponent implements OnInit {
     this.formData.state = form.value.address.state;
     this.formData.gender = form.value.gender;
     // reser the form controls
-    
-  }
-  OnClear(form: NgForm){
     form.reset();
+  
+  //form.controls['country'].setValue('India')
+  console.log(form.controls['address']); 
+  let objaddress = form.controls['address'];
+
+  console.log('after getting address form group', objaddress);
+//  objaddress.controls['country'].patchValue('India');
+
+
   }
 }
