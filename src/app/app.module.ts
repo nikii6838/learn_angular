@@ -19,6 +19,9 @@ import { CustdirDirective } from './custdir.directive';
 import { SimpleformComponent } from './simpleform/simpleform.component';
 import { SampleforComponent } from './samplefor/samplefor.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { AssignmentComponent } from './assignment/assignment.component';
+import { Demo1Component } from './demo1/demo1.component';
+import { Demo2Component } from './demo2/demo2.component';
 
 
 
@@ -41,6 +44,9 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     SimpleformComponent,
     SampleforComponent,
     ReactiveformComponent,
+    AssignmentComponent,
+    Demo1Component,
+    Demo2Component,
   ],
   imports: [
     BrowserModule,

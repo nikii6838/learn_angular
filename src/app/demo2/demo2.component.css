@@ -1,0 +1,77 @@
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched
+{
+  border: 1px solid red;
+  box-shadow: 0 0 13px #ff000021;
+}
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 400px;
+    width: 50%;
+    color: white;
+  }
+
+  .login-form input,
+  .login-form button{
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  .login-form button {
+    background-color: #007BFF; 
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .container{
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   .form-group{
+    justify-content: center;
+    align-items: center;
+   }
+   form,small{
+    width: 300px;
+    float: left;
+   }
+   label{
+    color: white;
+    float: left;
+   }
+   select{
+    border-left: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+   }
+   ::placeholder {
+    color: white; /* Change the color to your desired color */
+  }
+  .title{
+    color: #FCF6F5FF;
+  }
+  .custom-control{
+    float: left;
+}
+.radio{
+  display: inline-block;
+}
