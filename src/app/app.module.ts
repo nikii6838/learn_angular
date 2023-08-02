@@ -22,6 +22,7 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { AssignmentComponent } from './assignment/assignment.component';
 import { Demo1Component } from './demo1/demo1.component';
 import { Demo2Component } from './demo2/demo2.component';
+import { Form1Component } from './form1/form1.component';
 
 
 
@@ -47,6 +48,7 @@ import { Demo2Component } from './demo2/demo2.component';
     AssignmentComponent,
     Demo1Component,
     Demo2Component,
+    Form1Component,
   ],
   imports: [
     BrowserModule,
